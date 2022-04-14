@@ -49,5 +49,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OOPFinalFM.Core\OOPFinalFM.Core.csproj">
+      <Project>{f4ed05fc-b988-4206-8d5b-ba3116111f7e}</Project>
+      <Name>OOPFinalFM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOPFinalFM.Handler\OOPFinalFM.Handler.csproj">
+      <Project>{d64f907e-bff7-4f9d-afaf-13e6cdb8494c}</Project>
+      <Name>OOPFinalFM.Handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOPFinalFM.UI\OOPFinalFM.UI.csproj">
+      <Project>{074114b0-1a70-4dd4-a028-acde6665e7b1}</Project>
+      <Name>OOPFinalFM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
