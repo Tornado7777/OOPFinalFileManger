@@ -37,7 +37,7 @@ namespace OOPFinalFM.UI
             ConsoleUI.waitEnterCommandConsoleUI(commandEntityListing);
         }
         /// <summary>
-        /// Ожидает нажатия клавиш, реагирует в соответствии с нажатыми
+        /// Ожидает нажатия клавиш, реагирует в соответствии с нажатыми клавишами
         /// </summary>
         /// <param name="commandEntityListing"></param>
         /// <returns></returns>
