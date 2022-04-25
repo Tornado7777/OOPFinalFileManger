@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{074114B0-1A70-4DD4-A028-ACDE6665E7B1}</ProjectGuid>
+    <ProjectGuid>{8E854682-4627-4B7C-8160-5B5A85E6D23A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OOPFinalFM.UI</RootNamespace>
-    <AssemblyName>OOPFinalFM.UI</AssemblyName>
+    <RootNamespace>OOPFinalFM.Data</RootNamespace>
+    <AssemblyName>OOPFinalFM.Data</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,24 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleUpdateUI.cs" />
-    <Compile Include="IUpdateUI.cs" />
-    <Compile Include="ConsoleUI.cs" />
+    <Compile Include="CommandEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OOPFinalFM.Configuration\OOPFinalFM.Configuration.csproj">
-      <Project>{10c89fa7-0b0d-4dca-b1e2-40ff3c09eacd}</Project>
-      <Name>OOPFinalFM.Configuration</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OOPFinalFM.Data\OOPFinalFM.Data.csproj">
-      <Project>{8e854682-4627-4b7c-8160-5b5a85e6d23a}</Project>
-      <Name>OOPFinalFM.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OOPFinalFM.Handler\OOPFinalFM.Handler.csproj">
-      <Project>{d64f907e-bff7-4f9d-afaf-13e6cdb8494c}</Project>
-      <Name>OOPFinalFM.Handler</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

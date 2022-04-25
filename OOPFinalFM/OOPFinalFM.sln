@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFinalFM.Handler", "OOPFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFinalFM.UI", "OOPFinalFM.UI\OOPFinalFM.UI.csproj", "{074114B0-1A70-4DD4-A028-ACDE6665E7B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFinalFM.Configuration", "OOPFinalFM.Configuration\OOPFinalFM.Configuration.csproj", "{10C89FA7-0B0D-4DCA-B1E2-40FF3C09EACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFinalFM.Data", "OOPFinalFM.Data\OOPFinalFM.Data.csproj", "{8E854682-4627-4B7C-8160-5B5A85E6D23A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{074114B0-1A70-4DD4-A028-ACDE6665E7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074114B0-1A70-4DD4-A028-ACDE6665E7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074114B0-1A70-4DD4-A028-ACDE6665E7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C89FA7-0B0D-4DCA-B1E2-40FF3C09EACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C89FA7-0B0D-4DCA-B1E2-40FF3C09EACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C89FA7-0B0D-4DCA-B1E2-40FF3C09EACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C89FA7-0B0D-4DCA-B1E2-40FF3C09EACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E854682-4627-4B7C-8160-5B5A85E6D23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E854682-4627-4B7C-8160-5B5A85E6D23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E854682-4627-4B7C-8160-5B5A85E6D23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E854682-4627-4B7C-8160-5B5A85E6D23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

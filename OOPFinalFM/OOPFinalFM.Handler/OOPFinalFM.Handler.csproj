@@ -41,8 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="InputString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OOPFinalFM.Configuration\OOPFinalFM.Configuration.csproj">
+      <Project>{10c89fa7-0b0d-4dca-b1e2-40ff3c09eacd}</Project>
+      <Name>OOPFinalFM.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOPFinalFM.Core\OOPFinalFM.Core.csproj">
+      <Project>{f4ed05fc-b988-4206-8d5b-ba3116111f7e}</Project>
+      <Name>OOPFinalFM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOPFinalFM.Data\OOPFinalFM.Data.csproj">
+      <Project>{8e854682-4627-4b7c-8160-5b5a85e6d23a}</Project>
+      <Name>OOPFinalFM.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
