@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OOPFinalFM.UI\OOPFinalFM.UI.csproj">
+      <Project>{074114b0-1a70-4dd4-a028-acde6665e7b1}</Project>
+      <Name>OOPFinalFM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
